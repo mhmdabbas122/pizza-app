@@ -1,0 +1,47 @@
+.about {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+}
+
+.aboutTop {
+  width: 100%;
+  height: 45%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.aboutBottom {
+  display: flex;
+  flex-direction: column;
+  height: 55%;
+  align-items: center;
+  margin: 20px;
+}
+
+.aboutBottom p {
+  width: 1000px;
+  margin-top: 0px;
+}
+
+.about .aboutBottom h1 {
+  font-weight: 400;
+  font-size: 50px;
+  color: black;
+ margin-bottom: 16px;
+  transform: translateY(-40px);
+  border: 5px solid black;
+  border-radius: 40px;
+  padding: 8px 30 px;
+  display: inline-block;
+  transition: border-color 0.3s ease;
+}
+.about .aboutBottom h1:hover {
+    border-color: orange;
+    background-color: orange;
+    color: black;
+}
